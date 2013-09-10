@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta name="viewport" content ="width=device-width, initial-scale=1.0">
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<title>Create a Mechanic</title>
+	</head>
+	<body>
+	<div id="sign_in_button">
+		<a href="sign_in">Sign in</a>
+	</div>
+	<div id="left_sidebar">
+		<div id="site_nav"><
+			<ul>
+				<li><a href="home">Home</a></li>
+				<li><a href="search_results">Search</a></li><!--Search bar goes here-->
+				<li><a href="browse">Browse</a></li><!--link to page with all mechanics listed-->
+			</ul>
+		</div>
+		<div id="recently_visited">
+			<h3>Recently Visited</h3><!--capped at 3-->
+				<ul>
+					<li><a href="consumable_items">Consumable Items</a></li>
+					<li><a href="point_and_click">Point-and-Click</a></li>
+					<li><a href="skill_trees">Skill Trees</a></li>
+				</ul>
+		</div>	
+	</div>
+	<div class="container">
+		<div id="editabletitle">
+			<h2 class="edit" id="title_1">Title</h2>
+		</div>
+		<div class="well">
+			<h2>What Makes This Mechanic Interesting?</h2>
+				<div class="individual_creation_content">
+					<textarea class="input-xlarge" id="textarea" rows="12"></textarea>
+				</div>
+		</div>
+		<div id="description">
+			<h2>Description</h2>
+				<div class="individual_creation_content">
+					<textarea class="input-xlarge" id="textarea" rows="12"></textarea>
+				</div>
+		</div>
+		<div id="examples">
+			<h2>Examples</h2>
+			<div id="add_example">
+				<button type="button" onclick="alert('Clicking this button adds a new editable example. Placed after the bottom-most one.')">+</button>
+			</div>
+			<div class="individual_creation_content">
+				<div id="exampleinformation_creation">
+					<img src="http://www.novointeriors.com/images/gallery/placeholder/placeholder.jpg" alt="Placeholder Image" height = "50" width ="50"><!--Click to Edit--></img>
+					<p>Developer X Industries <!--click to edit--></p>
+					<p>Released Date <!--click to edit--></p>
+					<p>Platforms <!--click to edit--></p>
+				</div>
+			<textarea class="input-xlarge" id="textarea" rows="12"></textarea>
+			</div>
+		</div>
+		<div id="related_mechanics">
+			<h2>Related Mechanics</h2>
+				<div id="browse_mechanics">
+					<button type="button" onclick="alert('Goes to the page with all the published mechanics. On this page, the user can select which mechanics they want to put in the related mechanics section')">Browse Existing Mechanics</button>
+				</div>
+				<div class="individual_creation_content"><!--Add in a way for the user to call to the system to show a need for another mechanic. Not necessary for initial implementation, but should be added in an early patch-->
+				<textarea class="input-xlarge" id="textarea" rows="3"></textarea>
+				</div>
+		</div>
+		<div id="keywords">
+			<h2>Keywords</h2>
+				<div class="individual_creation_content">
+					<textarea class="input-xlarge" id="textarea" rows="3"></textarea>
+				</div>
+		</div>
+		<div id="additional_information">
+			<h2>Additional Information</h2>
+				<div class="individual_creation_content">
+					<textarea class="input-xlarge" id="textarea" rows="12"></textarea>
+				</div>
+		</div>
+	</div>
+	<div id="submit_form">
+		<button type="button" onclick="alert('Clicking this button submits the entry for revision/publication if the user has enough privileges')">Submit Entry</button>
+	</div>
+	<div id="save_draft">
+		<button type="button" onclick="alert('Clicking this button saves the draft in the profile page so they can come back to it later')">Save Draft</button>
+	</div>
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	 </script>
+			
+			
+			
+	</body>
+</html>

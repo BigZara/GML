@@ -1,0 +1,46 @@
+#sign_in {
+	float: right;
+	border: 2px solid red;
+	}
+#featured_mechanics{
+	border: 2px solid red;
+	height: 100px;
+	width: 400px;
+	float: left;
+	position: relative;
+	}
+#show_off{
+	border: 2px solid red;
+	height: 100px;
+	width: 400px;
+	float: left;
+	position: relative;
+	}
+#needs{
+	border: 2px solid red;
+	height: 100px;
+	width: 400px;
+	position: relative;
+	float: left;
+	}
+#explore{
+	border: 2px solid red;
+	height: 100px;
+	width: 400px;
+	float: top;
+	float: left;
+	position: relative;
+	}
+#change_log {
+	border: 2px solid red;
+	height: 100px;
+	width: 804px;
+	float: left;
+	float: bottom;
+	position: relative;
+	}
+#help_about {
+	border: 2px solid red;
+	bottom: 0;
+	position: absolute;
+	}

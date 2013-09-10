@@ -1,0 +1,85 @@
+/*CGI colors 74bb3f is green, c93824 is red, ffb138 is orange, 55b8e3 is blue*/
+/*color scheme 1 0033ff (sidebar prehover), 9999ff (sidebar background/sidebar posthover), ffffff (text),000000 (background) 000066*/
+/*color scheme 2 1047a9, 4577d4, 6b90d4, 052a6e*/
+body {
+
+ 	 color: #000000;
+  background-color: #ffffff;
+}
+
+#left_sidebar {
+	list-style-type:none;
+	margin:0;
+	padding;0;
+	float:left;
+	position:fixed;
+	left:-40px;
+	top:-15px;
+	text-align:left;
+	border: 5px solid #FFFFFF;
+	background-color: #1047a9;
+	
+}
+ul a:link,a:visited {
+	display:block;
+	font-weight:bold;
+	color:#ffffff;
+	background-color:#4577d4;
+	width:120px;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+ul a:hover,a:active {
+	background-color:#1047a9;
+}
+h1 {
+	
+	text-align:center;
+}
+h2 {
+	text-align:center;
+}
+#creation h3 {
+	margin-left:40px;
+}
+#creation h3 p{
+	margin-left:40px;
+}
+#recently_visited h3 {
+	margin-left:40px;
+}
+.instance_individual img {
+	float:right
+}
+table {
+	text-align:center;
+}
+#search {
+	height:50px;
+	width:50px;
+}
+#entry_nav h3 {
+	margin-left:40px;
+}
+#sign_in_button a {
+	height:25px;
+	width:30px;
+	display:block;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#0033ff;
+	width:70px;
+	margin-left:1180px;
+	padding:4px;
+	text-decoration:none;
+	text-transform:uppercase;
+	border-radius:5px;
+	text-align:center;
+}
+#main_content {
+	padding:70px;
+	margin-left:135px;
+	margin-top:-100px;
+}

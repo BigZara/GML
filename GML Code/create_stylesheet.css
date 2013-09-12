@@ -1,0 +1,34 @@
+#title {
+text-align:center;
+}
+#interesting_mechanic {
+text-align:center;
+}
+#description {
+text-align:center;
+}
+#example_text {
+text-align:left;
+}
+#example_title {
+text-align:center
+}
+#example_information  {
+text-align:center;
+}
+#textarea {
+width:975px;
+}
+#example_text #textarea {
+width:855px;
+}
+#example_title_and_add {
+text-align:center;
+}
+#add_button {
+margin-left: 175px;
+margin-top: -75px;
+}
+#nav_sign_in_button {
+margin-left:750px;
+}

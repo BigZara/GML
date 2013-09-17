@@ -2,75 +2,58 @@
 <html>
 	<head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="http://bootswatch.com/amelia/bootstrap.min.css" rel="stylesheet" media="screen">
-	<link rel="stylesheet" type="text/css" href="create_stylesheet.css">
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<title>Create a Mechanic</title>
 	</head>
-	<body style>
-<nav class="navbar navbar-default" role="navigation">
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="#">The Game Mechanic Library</a>
-	<a class="navbar-brand" href="#">Create</a>
-	<a class="navbar-brand" href="#">Explore</a>
-	<a class="navbar-brand" href="#" id="nav_sign_in_button">Sign In</a>
-  </div>
-  </nav>
-	<div class="container" id="title">
-		<div class="row">
-				<h2>Title</h2>
+	<body>
+		<div class="container" id="top_content">
+			<div class="row">
+				<div class="well">
+					<div id="title" style="text-align:center;">
+						<p>Title</p>
+					</div>
+					<div id="sign_in" style="margin-left:800px; margin-top: -35px">
+						<button type="submit" class="btn">Sign in</button>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="container" id="interesting_mechanic">
-				<div class="row">
-					<h2>What Makes This Mechanic Interesting?</h2>
-				</div>
-				<div class="row">
-					<textarea class="input-xlarge" id="textarea" rows="5"></textarea>
-				</div>
-			</div>
-		<div class="container" id="description">
-				<div class="row">
-					<h2>Description</h2>
-				</div>
-				<div class="row">
-					<textarea class="input-xlarge" id="textarea" rows="5"></textarea>
+		<div class="container" id="interesting_mechanic" style="text-align:center;">
+			<div class="row">
+				<div class="well">
+					<p>What Makes this Mechanic Interesting?</p>
+					<textarea class="input-xlarge" id="textarea" rows="5" style="width: 400px"></textarea>
 				</div>
 			</div>
-		<div class="container" id="examples">
-				<div class="row" id="example_title_and_add">
-					<h2>Examples</h2>
-					<button type="submit" class="btn" id="add_button">+</button>
+		</div>
+		<div class="container" id="description" style="text-align:center;">
+			<div class="row">
+				<div class="well">
+					<p>Description</p>
+					<textarea class="input-xlarge" id="textarea" rows="5" style="width: 400px"></textarea>
+				</div>
+			</div>
+		</div>
+		<div class="container" id="examples" style="text-align:center;">
+			<div class="row" style="text-align:center">
+				<div class="well" style="height:150px">
+					<div class="span4" id="example_information" style="width: 100px; height: 150px; border: 5px solid blue; margin-left:0">
+						<p>Example Information</p>
+						<p>Game Image</p>
+						<p>Developer</p>
+						<p>Release Date</p>
 					</div>
-				<div class="container" id="example_infomation">
-					<div class="row">
-						<div class="col-md-2" div id="example_information">
-						<div class="row">
-							<h4>Example Information</h4>
-						</div>
-						<div class="row">
-							<h5>Image</h5>
-						</div>
-						<div class="row">
-							<h5>Developer</h5>
-						</div>
-						<div class="row">
-							<h5>Release Date</h5>
-						</div>
-						</div>
-						<div class="col-md-10" id="example_text">
-						<textarea class="input-xlarge" id="textarea" rows="5"></textarea>
-						</div>
+					<div class="span4" div id="example_content" style="text-align:center; margin-left:143px">
+						<p style="text-align:center; margin-left: 120px">Examples</p>
+						<textarea class="input-xlarge" id="textarea" rows="5" style="width: 400px"></textarea>
+					</div>
+					<div class="span4" id="add_example">
+						<button type="submit" class="btn">+</button>
 					</div>
 				</div>
 			</div>
-	<script src="//code.jquery.com/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	</script>
+		</div>
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
 	</body
-</html>																																															
+	</html>

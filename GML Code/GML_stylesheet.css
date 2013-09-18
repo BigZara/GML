@@ -1,0 +1,168 @@
+#title {
+text-align:center;
+}
+#interesting_mechanic {
+text-align:center;
+}
+#example_text {
+text-align:left;
+}
+#example_title {
+text-align:center
+}
+#example_information  {
+text-align:center;
+}
+#textarea {
+width:800px;
+}
+#example_textarea {
+width: 650px;
+height: 250px;
+}
+#example_title_and_add {
+text-align:center;
+}
+#add_button {
+margin-left: 350px;
+margin-top: -75px;
+}
+#nav_sign_in_button {
+margin-left:750px;
+}
+#sidebar {
+float:left;
+text-align:center;
+
+}
+.sidebar-nav-fixed {
+    position:fixed;
+    top:100;
+    left:0;
+	background-color: #ad1d28;
+	color:white;
+}
+#search_bar {
+margin-left: 15px;
+}
+#search_button {
+width:75px;
+height:35px;
+}
+#logo {
+width: 100px;
+height: 75px;
+margin-left: 375px;
+margin-top: -75px;
+}
+#sign_in_button {
+margin-top:25px;
+margin-left: 
+}
+#show_off {
+text-align: center;
+}
+#need_help {
+text-align:center
+}
+#featured_mechanics {
+text-align:center;
+}
+#explore {
+text-align:center;
+}
+#changelog {
+text-align:center;
+height: 200px;
+}
+#sidebar_well {
+width: 170px;
+margin-left:0;
+}
+.well {
+width: 850px;
+margin-left: 150px;
+background-color:white;
+color:black;
+
+}
+#description_title {
+text-align: center;
+}
+#homepage_well {
+width:1200px;
+margin-left:-45px;
+}
+#homepage_main_content {
+margin-top: 30px;
+}
+#super_mario_block {
+float:right;
+}
+#lol_game {
+float:right;
+}
+#how_to_create {
+text-align:center;
+}
+#learn_about_us {
+text-align:center;
+}
+#related_mechanics_title {
+text-align:center;
+font-family: times;
+}
+#related_mechanics_entries {
+text-align:center;
+}
+#description_title_create {
+text-align:center;
+}
+#description_entry_view {
+margin-left: 15px;
+}
+#sims_pic_cooldowns {
+float:right;
+}
+#entry_view_title {
+margin-left: 60px;
+text-align:center;
+}
+#description_create_textarea {
+margin-left: 15px;
+}
+#sidebar_well {
+background-color: #ad1d28;
+color:white;
+}
+#homepage_main_content .well {
+background-color: #ad1d28;
+color:white;
+}
+#homepage_button_row_one {
+width: 160px;
+margin: 2px;
+padding: 4px;
+}
+#homepage_button_row_two_browse {
+width: 160px;
+margin: 2px;
+padding: 4px;
+}
+#homepage_button_row_two_search {
+margin: 2px;
+padding: 4px;
+}
+#homepage_search_bar {
+width:160px;
+}
+#description_text {
+padding: 5px 30px 5px 30px;
+}
+.example_image {
+padding: 15px;
+}
+.titletext {
+font-family: Cambria;
+font-weight:bold;
+}

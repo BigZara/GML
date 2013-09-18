@@ -1,0 +1,81 @@
+#title {
+text-align:center;
+}
+#interesting_mechanic {
+text-align:center;
+}
+#description {
+text-align:center;
+}
+#example_text {
+text-align:left;
+}
+#example_title {
+text-align:center
+}
+#example_information  {
+text-align:center;
+}
+#textarea {
+width:975px;
+}
+#example_text #textarea {
+width:845px;
+height: 150px;
+}
+#example_title_and_add {
+text-align:center;
+}
+#add_button {
+margin-left: 175px;
+margin-top: -75px;
+}
+#nav_sign_in_button {
+margin-left:750px;
+}
+#sidebar {
+float:left;
+text-align:center;
+}
+#content {
+margin-right: 25px;
+}
+.sidebar-nav-fixed {
+    position:fixed;
+    top:100;
+    left:0;
+}
+#search_bar {
+margin-left: 15px;
+}
+#search_botton {
+width:75px;
+height:35px;
+}
+#logo {
+width: 100px;
+height: 75px;
+margin-left: 375px;
+margin-top: -75px;
+}
+
+#sign_in_button {
+margin-top:25px;
+margin-left: 
+}
+#show_off {
+text-align: center;
+}
+#need_help {
+text-align:center
+}
+#featured_mechanics {
+text-align:center;
+}
+#explore {
+text-align:center;
+}
+#changelog {
+text-align:center;
+height: 200px;
+}
